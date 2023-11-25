@@ -1,0 +1,25 @@
+@font-face {
+    font-family: muthiara;
+    src: url(fonts/Muthiara\ demo\ version.otf);
+}
+
+
+@font-face{
+    font-family: coolvetica;
+    src: url(outrasfotos/fonts/coolvetica\ rg.otf);
+}
+
+body{
+    text-align: center;
+    font-family: coolvetica;
+    background-color: #ffe6db;
+    font-size: large;
+    color: #ad5c70;
+    margin: 55px;
+}
+
+input[type="submit"]{
+    font-family: coolvetica;
+    padding: 8px;
+    border-color: #d4838f;
+}
