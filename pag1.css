@@ -1,0 +1,98 @@
+*{margin: 0px; padding: auto; box-sizing: border-box;}
+
+@font-face {
+    font-family: muthiara;
+    src: url(fonts/Muthiara\ demo\ version.otf);
+}
+
+body{
+    background-color: #ffe6db;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.barrinha{
+    background-color: #ffa5aa;
+    height: 50px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.letrinha{
+    font-family: muthiara;
+    text-align: center;
+    padding: 8px;
+    color: #8f4254;
+    font-size: x-large;
+}
+
+.container{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin: 55px;
+    align-items: center;
+}
+
+.quadrinho1{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.quadrinho1 img{
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0px 1px 3px black;
+
+    transition: transform 2s;
+  transform: translateX(0) scale(1.3s);
+}
+
+.quadrinho1:hover,
+.quadrinho1:focus {
+  transform: translateX(0) scale(1.1);
+  
+}
+
+
+.container2{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin: 55px;
+    align-items: center;
+}
+
+.quadrinho2{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.quadrinho2 img{
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0px 1px 3px black;
+
+    transition: transform 2s;
+    transform: translateX(0) scale(1.3s);
+}
+
+.quadrinho2:hover,
+.quadrinho2:focus {
+  transform: translateX(0) scale(1.1);
+  
+}
